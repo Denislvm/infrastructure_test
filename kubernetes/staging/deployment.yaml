@@ -24,7 +24,7 @@ spec:
                     - staging
             topologyKey: "kubernetes.io/hostname"
 
-      containers:
+      containers: # test
       - name: django-app
         image: nginx:latest
         ports:
